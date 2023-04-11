@@ -1,0 +1,74 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1681216576668)
++++ b/.idea/.gitignore	(date 1681216576668)
+@@ -0,0 +1,5 @@
++# 디폴트 무시된 파일
++/shelf/
++/workspace.xml
++# 에디터 기반 HTTP 클라이언트 요청
++/httpRequests/
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1681216602588)
++++ b/.idea/vcs.xml	(date 1681216602588)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/javascript-es6-fundamental.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/javascript-es6-fundamental.iml b/.idea/javascript-es6-fundamental.iml
+new file mode 100644
+--- /dev/null	(date 1681216578634)
++++ b/.idea/javascript-es6-fundamental.iml	(date 1681216578634)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/temp" />
++      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
++      <excludeFolder url="file://$MODULE_DIR$/tmp" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1681216578643)
++++ b/.idea/modules.xml	(date 1681216578643)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/javascript-es6-fundamental.iml" filepath="$PROJECT_DIR$/.idea/javascript-es6-fundamental.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
