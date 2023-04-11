@@ -14,6 +14,10 @@ let name = "Kevin";
 console.log(name);
 console.log(typeof name);
 
+let myName = 'Kim';
+let templateLiteral = `hello ${myName}`;
+console.log(templateLiteral); // hello Kim
+
 // 3. Boolean
 console.log(true);
 let isFun = true;
