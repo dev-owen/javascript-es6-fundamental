@@ -18,6 +18,15 @@ console.log(appleCount); // 18
 appleCount /= 3;
 console.log(appleCount); // 6
 
+// 타입 변환과 타입 강제
+const birthYear = "1990";
+console.log(Number(birthYear) + 10); // 2000
+console.log(Number("Hello")); // NaN
+console.log(String(30), 30);
+
+console.log("나는 " + 30 + "살입니다.");
+console.log("20" - 5.5);
+
 // 비교 연산자 (Comparison Operators)
 
 const myName = "John";
@@ -49,24 +58,23 @@ console.log(num); // 3
 
 // 논리 연산자 (Logical Operators)
 
-const a1 = true && true;      // t && t는 true 반환
-const a2 = true && false;     // t && f는 false 반환
-const a3 = false && true;     // f && t는 false 반환
-const a4 = false && (3 == 4); // f && f는 false 반환
-const a5 = 'Cat' && 'Dog';    // t && t는 Dog 반환
-const a6 = false && 'Cat';    // f && t는 false 반환
-const a7 = 'Cat' && false;    // t && f는 false 반환
+const a1 = true && true; // t && t는 true 반환
+const a2 = true && false; // t && f는 false 반환
+const a3 = false && true; // f && t는 false 반환
+const a4 = false && 3 == 4; // f && f는 false 반환
+const a5 = "Cat" && "Dog"; // t && t는 Dog 반환
+const a6 = false && "Cat"; // f && t는 false 반환
+const a7 = "Cat" && false; // t && f는 false 반환
 
-const o1 = true || true;      // t || t는 true 반환
-const o2 = false || true;     // f || t는 true 반환
-const o3 = true || false;     // t || f는 true 반환
-const o4 = false || (3 == 4); // f || f는 false 반환
-const o5 = 'Cat' || 'Dog';    // t || t는 Cat 반환
-const o6 = false || 'Cat';    // f || t는 Cat 반환
-const o7 = 'Cat' || false;    // t || f는 Cat 반환
-
+const o1 = true || true; // t || t는 true 반환
+const o2 = false || true; // f || t는 true 반환
+const o3 = true || false; // t || f는 true 반환
+const o4 = false || 3 == 4; // f || f는 false 반환
+const o5 = "Cat" || "Dog"; // t || t는 Cat 반환
+const o6 = false || "Cat"; // f || t는 Cat 반환
+const o7 = "Cat" || false; // t || f는 Cat 반환
 
 // 삼항 연산자 (Conditional Operators)
 
 const age = 17;
-const AdultCheck = age > 18 ? '성년' : '미성년'
+const AdultCheck = age > 18 ? "성년" : "미성년";
